@@ -32,11 +32,11 @@ export const navRoutes = [
         exact: true,
         comp: Projects
     },
-    {
-        icon : <CgFileDocument style={{ marginBottom: "2px" }}/>,
-        to : "/resume",
-        text: "Resume",
-        exact: true,
-        comp: Resume
-    }
+//     {
+//         icon : <CgFileDocument style={{ marginBottom: "2px" }}/>,
+//         to : "/resume",
+//         text: "Resume",
+//         exact: true,
+//         comp: Resume
+//     }
 ]

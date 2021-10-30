@@ -6,3 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(0 0 0), rgb(0 0 0));
 }
+
+:root {
+  /* --nav-height:  */
+  /* calc(100vh - var(--nav-height) */
+}

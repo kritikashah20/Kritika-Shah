@@ -1,11 +1,19 @@
+import { useEffect } from "react";
+
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import { projectData } from "../../Data/projects";
 
+import { title } from "../../Data/titles";
+import { setTitle } from "../../Helpers/misc";
+
 
 function Projects() {
+  useEffect(() => {
+    setTitle(title.projects);
+  }, [])
   return (
     <Container fluid className="project-section">
       <Particle />

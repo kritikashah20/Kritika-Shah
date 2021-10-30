@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
@@ -6,8 +6,15 @@ import AboutCard from "./AboutCard";
 import Toolstack from "./Toolstack";
 import EducationCard from "./EducationCard";
 import WorkCard from "./WorkCard";
+import { Document, Page, pdfjs } from "react-pdf";
+
+import { title } from "../../Data/titles";
+import { setTitle } from "../../Helpers/misc";
 
 function About() {
+  useEffect(() => {
+    setTitle(title.about);
+  }, [])
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -25,6 +32,7 @@ function About() {
               Read About <strong className="purple">ME</strong>
             </h1>
             <AboutCard />
+
           </Col>
         </Row>
 

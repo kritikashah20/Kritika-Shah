@@ -14,7 +14,9 @@ function AboutCard() {
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
+          
         </blockquote>
+        
       </Card.Body>
     </Card>
   );

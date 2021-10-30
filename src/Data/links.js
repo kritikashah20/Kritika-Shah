@@ -16,7 +16,7 @@ export const socialLinks = [
     },
     {
         icon : <AiFillInstagram />,
-        link : "https://www.instagram.com/_kritika.shah/"
+        link : "https://www.instagram.com/_/"
     },
     {
         icon : <FaLinkedinIn />,

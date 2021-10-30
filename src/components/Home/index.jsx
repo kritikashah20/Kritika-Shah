@@ -1,14 +1,21 @@
-import React from "react";
+import { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+
 import Home2 from "./HomeAbout";
 import Type from "../../Helpers/Type";
+import { title } from "../../Data/titles";
+import { setTitle } from "../../Helpers/misc";
 
 function Home() {
+
+  useEffect(() => {
+    setTitle(title.home);
+  }, [])
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
+        
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
