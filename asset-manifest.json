@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/Kritika-Shah/static/css/main.604d34a6.chunk.css",
-    "main.js": "/Kritika-Shah/static/js/main.038a642e.chunk.js",
-    "main.js.map": "/Kritika-Shah/static/js/main.038a642e.chunk.js.map",
-    "runtime-main.js": "/Kritika-Shah/static/js/runtime-main.b0b200ce.js",
-    "runtime-main.js.map": "/Kritika-Shah/static/js/runtime-main.b0b200ce.js.map",
+    "main.js": "/Kritika-Shah/static/js/main.148541cf.chunk.js",
+    "main.js.map": "/Kritika-Shah/static/js/main.148541cf.chunk.js.map",
+    "runtime-main.js": "/Kritika-Shah/static/js/runtime-main.b72008fd.js",
+    "runtime-main.js.map": "/Kritika-Shah/static/js/runtime-main.b72008fd.js.map",
     "static/css/2.dc1960d9.chunk.css": "/Kritika-Shah/static/css/2.dc1960d9.chunk.css",
-    "static/js/2.0ce9be55.chunk.js": "/Kritika-Shah/static/js/2.0ce9be55.chunk.js",
-    "static/js/2.0ce9be55.chunk.js.map": "/Kritika-Shah/static/js/2.0ce9be55.chunk.js.map",
-    "static/js/3.8857f0a6.chunk.js": "/Kritika-Shah/static/js/3.8857f0a6.chunk.js",
-    "static/js/3.8857f0a6.chunk.js.map": "/Kritika-Shah/static/js/3.8857f0a6.chunk.js.map",
+    "static/js/2.dfde4eee.chunk.js": "/Kritika-Shah/static/js/2.dfde4eee.chunk.js",
+    "static/js/2.dfde4eee.chunk.js.map": "/Kritika-Shah/static/js/2.dfde4eee.chunk.js.map",
+    "static/js/3.67f8a870.chunk.js": "/Kritika-Shah/static/js/3.67f8a870.chunk.js",
+    "static/js/3.67f8a870.chunk.js.map": "/Kritika-Shah/static/js/3.67f8a870.chunk.js.map",
     "index.html": "/Kritika-Shah/index.html",
     "static/css/2.dc1960d9.chunk.css.map": "/Kritika-Shah/static/css/2.dc1960d9.chunk.css.map",
     "static/css/main.604d34a6.chunk.css.map": "/Kritika-Shah/static/css/main.604d34a6.chunk.css.map",
-    "static/js/2.0ce9be55.chunk.js.LICENSE.txt": "/Kritika-Shah/static/js/2.0ce9be55.chunk.js.LICENSE.txt",
+    "static/js/2.dfde4eee.chunk.js.LICENSE.txt": "/Kritika-Shah/static/js/2.dfde4eee.chunk.js.LICENSE.txt",
     "static/media/KritikaShah_Resume.c8fe4dbe.pdf": "/Kritika-Shah/static/media/KritikaShah_Resume.c8fe4dbe.pdf",
+    "static/media/avatar1.1a78529a.png": "/Kritika-Shah/static/media/avatar1.1a78529a.png",
     "static/media/blogmania.35338264.png": "/Kritika-Shah/static/media/blogmania.35338264.png",
     "static/media/celestial.51d04ffb.jpg": "/Kritika-Shah/static/media/celestial.51d04ffb.jpg",
     "static/media/style.css": "/Kritika-Shah/static/media/pre.d4812f51.svg",
     "static/media/vistar.f3f9d758.png": "/Kritika-Shah/static/media/vistar.f3f9d758.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0b200ce.js",
+    "static/js/runtime-main.b72008fd.js",
     "static/css/2.dc1960d9.chunk.css",
-    "static/js/2.0ce9be55.chunk.js",
+    "static/js/2.dfde4eee.chunk.js",
     "static/css/main.604d34a6.chunk.css",
-    "static/js/main.038a642e.chunk.js"
+    "static/js/main.148541cf.chunk.js"
   ]
 }
