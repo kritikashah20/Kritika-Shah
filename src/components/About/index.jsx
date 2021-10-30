@@ -4,6 +4,8 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";
 import Toolstack from "./Toolstack";
+import EducationCard from "./EducationCard";
+import WorkCard from "./WorkCard";
 
 function About() {
   return (
@@ -23,6 +25,30 @@ function About() {
               Read About <strong className="purple">ME</strong>
             </h1>
             <AboutCard />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={12} style={{ alignItems: "center" }}>
+            <h1 className="project-heading">
+              Educational <strong className="purple">Qualification </strong>
+            </h1>
+
+            <div style={{ width: "60%", margin: "auto" }}>
+              <EducationCard />
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={12}>
+            <h1 className="project-heading">
+              Work <strong className="purple">Experience </strong>
+            </h1>
+
+            <div style={{ width: "60%", margin: "auto" }}>
+              <WorkCard />
+            </div>
           </Col>
         </Row>
         <h1 className="project-heading">

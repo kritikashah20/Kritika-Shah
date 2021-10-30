@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import myImg from "../../Assets/avatar.svg";
-// import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/avatar1.png";
+import Tilt from "react-parallax-tilt";
 
 import { socialLinks } from "../../Data/links";
 
@@ -37,9 +37,9 @@ function HomeAbout() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            {/* <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt> */}
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" style={{width:"200px", height:"200px"}} />
+            </Tilt>
           </Col>
         </Row>
         <Row>
