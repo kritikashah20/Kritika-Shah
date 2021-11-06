@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
 
-import { socialLinks } from "../../Data/links";
-
 function HomeAbout() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -40,28 +38,6 @@ function HomeAbout() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" style={{width:"200px", height:"200px"}} />
             </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              {socialLinks.map((item, index) => (
-                <li className="social-icons">
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  {item.icon}
-                </a>
-              </li>
-              ))}
-            </ul>
           </Col>
         </Row>
       </Container>

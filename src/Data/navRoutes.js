@@ -1,32 +1,31 @@
-import {
-    AiOutlineHome,
-    AiOutlineFundProjectionScreen,
-    AiOutlineUser,
-} from "react-icons/ai";
-import { CgFileDocument } from "react-icons/cg";
+// import {
+//     AiOutlineHome,
+//     AiOutlineFundProjectionScreen,
+//     AiOutlineUser,
+// } from "react-icons/ai";
+import { lazy } from "react";
 
-import Home from "../components/Home";
-import About from "../components/About";
-import Projects from "../components/Projects";
-import Resume from "../components/Resume";
+const Home = lazy(() => import("../components/Home"));
+const About = lazy(() => import("../components/About"));
+const Projects = lazy(() => import("../components/Projects"));
 
 export const navRoutes = [
     {
-        icon : <AiOutlineHome style={{ marginBottom: "2px" }}/>,
+        // icon : <AiOutlineHome style={{ marginBottom: "2px" }}/>,
         to : "/",
         text: "Home",
         exact: true,
         comp: Home
     },
     {
-        icon : <AiOutlineUser style={{ marginBottom: "2px" }}/>,
+        // icon : <AiOutlineUser style={{ marginBottom: "2px" }}/>,
         to : "/about",
         text: "About",
         exact: true,
         comp: About
     },
     {
-        icon : <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }}/>,
+        // icon : <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }}/>,
         to : "/projects",
         text: "Projects",
         exact: true,

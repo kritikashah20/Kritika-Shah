@@ -311,11 +311,15 @@ html {
   padding-top: 70px !important;
 }
 
+.home-about-section h1 {
+  text-align: left;
+}
+
 .home-about-description {
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
-  text-align: center;
+  text-align: left;
 }
 
 .home-about-body {
@@ -346,7 +350,7 @@ html {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: transparent !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -374,6 +378,7 @@ html {
   color: #12b0d1;
   box-shadow: 0 0 5px #12b0d1;
   text-shadow: 0 0 2px #12b0d1;
+  /* background: rgba(241, 241, 235, 0.1) !important; */
 }
 
 .social-icons {
@@ -511,6 +516,10 @@ html {
   transition: all 0.4s ease 0s !important;
 }
 
+.toolHover:hover {
+  background: rgb(65, 193, 218) !important; 
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
@@ -525,6 +534,10 @@ html {
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
+  display: none;
+}
+.icon-back:hover {
+  background: rgb(65, 193, 218) !important;
 }
 
 .quote-card-view {

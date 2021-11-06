@@ -1,12 +1,30 @@
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import Home2 from "./HomeAbout";
-import Type from "../../Helpers/Type";
 import { title } from "../../Data/titles";
+
+import Type from "../../Helpers/Type";
 import { setTitle } from "../../Helpers/misc";
+import NewComp from "../NewComp";
+
+const Home2 = lazy(() => import("./HomeAbout"));
 
 function Home() {
+
+  const skills = [
+    {
+      skill: "react",
+      rating: 3
+    },
+    {
+      skill: "html",
+      rating: 3.5
+    },
+    {
+      skill: "c++",
+      rating: 4
+    }
+  ]
 
   useEffect(() => {
     setTitle(title.home);
@@ -15,7 +33,7 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        
+
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -35,7 +53,15 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Home2 />
+      </Suspense>
+
+
+      {skills.map((item, index) => <NewComp {...item}/>)}
+      
+
+
     </section>
   );
 }

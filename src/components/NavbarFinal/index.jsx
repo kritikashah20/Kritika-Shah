@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -47,7 +47,6 @@ function NavbarFinal() {
                                     key={index}
                                     as={Link}
                                     to={item.to}>
-                                    {item.icon}
                                     {item.text}
                                 </Nav.Link>
                             </Nav.Item>

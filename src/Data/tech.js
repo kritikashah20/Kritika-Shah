@@ -14,42 +14,55 @@ import { SiTensorflow, SiFirebase, SiMysql } from "react-icons/si";
 
 export const techIcons = [
     {
-        icon : <CgCPlusPlus />
+        icon : <CgCPlusPlus />,
+        rating: 3.5
     },
     {
-        icon : <DiHtml5 />
+        icon : <DiHtml5 />,
+        rating: 3.5
     },
     {
-        icon : <DiCss3 />
+        icon : <DiCss3 />,
+        rating: 3.5
     },
     {
-        icon : <DiJavascript1 />
+        icon : <DiJavascript1 />,
+        rating: 3.5
     },
     {
-        icon : <DiNodejs />
+        icon : <DiNodejs />,
+        rating: 3.5
     },
     {
-        icon : <DiReact />
+        icon : <DiReact />,
+        rating: 3.5
     },
     {
-        icon : <DiPython />
+        icon : <DiPython />,
+        rating: 4
     },
     {
-        icon : <DiJava />
+        icon : <DiJava />,
+        rating: 3.5
     },
     {
-        icon : <DiMongodb />
+        icon : <DiMongodb />,
+        rating: 3.5
     },
     {
-        icon : <DiGit />
+        icon : <DiGit />,
+        rating: 3.5
     },
     {
-        icon : <SiMysql />
+        icon : <SiMysql />,
+        rating: 4.5
     },
     {
-        icon : <SiFirebase />
+        icon : <SiFirebase />,
+        rating: 3.5
     },
     {
-        icon : <SiTensorflow />
+        icon : <SiTensorflow />,
+        rating: 3.5
     }
 ]
