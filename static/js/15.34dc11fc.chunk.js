@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[15],{69:function(t,c,n){"use strict";n.r(c);var e=n(4),o=n(50),s=n(51),i=n(55),j=[{icon:Object(e.jsx)(i.h,{})},{icon:Object(e.jsx)(i.d,{})},{icon:Object(e.jsx)(i.f,{})},{icon:Object(e.jsx)(i.c,{})},{icon:Object(e.jsx)(i.a,{})}];c.default=function(){return Object(e.jsx)(o.a,{style:{justifyContent:"center",paddingBottom:"50px"},children:j.map((function(t,c){return Object(e.jsx)(s.a,{xs:4,md:2,className:"tech-icons",children:t.icon})}))})}}}]);
+//# sourceMappingURL=15.34dc11fc.chunk.js.map
