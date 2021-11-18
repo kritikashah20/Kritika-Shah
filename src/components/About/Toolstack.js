@@ -7,7 +7,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {toolIcons.map((item, index) => (
-        <Col xs={4} md={2} className="tech-icons toolHover">
+        <Col xs={4} md={2} className="tech-icons">
         {item.icon}
       </Col>
       ))}

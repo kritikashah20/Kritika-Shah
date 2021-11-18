@@ -5,26 +5,10 @@ import { title } from "../../Data/titles";
 
 import Type from "../../Helpers/Type";
 import { setTitle } from "../../Helpers/misc";
-import NewComp from "../NewComp";
 
 const Home2 = lazy(() => import("./HomeAbout"));
 
 function Home() {
-
-  const skills = [
-    {
-      skill: "react",
-      rating: 3
-    },
-    {
-      skill: "html",
-      rating: 3.5
-    },
-    {
-      skill: "c++",
-      rating: 4
-    }
-  ]
 
   useEffect(() => {
     setTitle(title.home);
@@ -56,12 +40,6 @@ function Home() {
       <Suspense fallback={<div>Loading...</div>}>
         <Home2 />
       </Suspense>
-
-
-      {skills.map((item, index) => <NewComp {...item}/>)}
-      
-
-
     </section>
   );
 }

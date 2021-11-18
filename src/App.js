@@ -1,5 +1,5 @@
 import { lazy, Suspense, useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./style.css";
 import "./App.css";
@@ -28,11 +28,11 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <NavbarFinal />
         <Suspense fallback={<Preloader load={true} />}>
-          <Switch>
+          <Routes>
             {navRoutes.map((item, index) => (
-              <Route path={item.to} exact={item.exact} component={item.comp} />
+              <Route path={item.to} element={<item.comp />} />
             ))}
-          </Switch>
+          </Routes>
           <FooterF />
         </Suspense>
       </div>

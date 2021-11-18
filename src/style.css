@@ -510,14 +510,52 @@ html {
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(70, 198, 200, 0.11) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
 
+.toolHover {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(75, 220, 218, 0.28)  !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  box-shadow: 4px 5px 4px 3px rgba(70, 198, 200, 0.11) !important;
+  overflow: hidden !important;
+  transition: 0.2s ease !important;
+}
+
+.icon-i {
+  /* transition: all 0.3s ease-in-out !important; */
+    display: block !important;
+    width: 100% !important;
+}
+
+.rating-i {
+  display: none !important;
+  /* transition: all 0.5s ease-in-out !important; */
+}
+
 .toolHover:hover {
-  background: rgb(65, 193, 218) !important; 
+  /* border: 2.2px solid rgb(65, 193, 218) !important; */
+  background: rgba(65, 193, 218, 0.8);
+  font-size: 4.2em !important;
+}
+
+.toolHover:hover .rating-i{
+  display: block !important;
+  padding: 0px !important;
+  width: 100% !important;
+}
+
+.toolHover:hover .icon-i{
+  display: none !important;
+  padding: 0px !important;
+  width: 100% !important;
 }
 
 @media (max-width: 767px) {
@@ -530,14 +568,6 @@ html {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgb(65, 193, 218) !important;
-}
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
-  display: none;
-}
-.icon-back:hover {
-  background: rgb(65, 193, 218) !important;
 }
 
 .quote-card-view {
